@@ -1,0 +1,17 @@
+.characterCard {
+  box-shadow: 0 0 19px rgba(0, 0, 0, 0.25);
+
+  display: flex;
+  justify-content: left;
+  background-color: sandybrown;
+}
+
+.characterCard img {
+  width: 50%;
+  padding: 5px;
+  background-color: #ffffff;
+}
+
+.characterCard .rightSide {
+  padding: 20px;
+}
