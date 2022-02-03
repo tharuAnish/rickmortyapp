@@ -1,5 +1,11 @@
 h1 {
   text-align: center;
+  padding: 5%;
+  font-size: 5.26rem;
+  font-weight: 800;
+  margin: 0px;
+  letter-spacing: 0.04em;
+  color: #08101a;
 }
 
 .characterWrapper {
@@ -7,4 +13,14 @@ h1 {
   grid-column-gap: 25px;
   grid-row-gap: 25px;
   grid-template-columns: repeat(3, 1fr);
+  background-color: #142d4c;
+  padding: 5%;
+}
+
+.background {
+  /* background: url(../../../img/rickmorty-wallpaper.webp); */
+  background-color: #142d4c8c;
+}
+.background img {
+  width: 100vw;
 }

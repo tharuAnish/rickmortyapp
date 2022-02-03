@@ -1,15 +1,14 @@
 .characterCard {
-  box-shadow: 0 0 19px rgba(0, 0, 0, 0.25);
-
+  box-shadow: 0 0 19px rgb(0 0 0 / 25%);
   display: flex;
   justify-content: left;
-  background-color: sandybrown;
+  background-color: #385170;
+  border-radius: 17px;
 }
 
 .characterCard img {
   width: 50%;
-  padding: 5px;
-  background-color: #ffffff;
+  border-radius: 16px 0px 0px 16px;
 }
 
 .characterCard .rightSide {

@@ -1,7 +1,19 @@
-.nav{
-    background-color: whitesmoke;
-    text-align: center;
-    padding: 15px;
-    font-size: 1.6rem;
-    box-shadow: 0 3px 18px rgba(0, 0,0,0.2);
+.nav {
+  padding: 15px;
+  font-size: 1.2rem;
+  text-align: right;
+  /*box-shadow: 0 3px 18px rgba(0, 0, 0, 0.2); */
+}
+.nav a {
+  text-decoration: none;
+  color: black;
+  padding: 10px;
+  font-weight: 700;
+  text-align: right;
+  color: #08101a;
+}
+
+.search {
+  border-radius: 7px;
+  padding: 2px;
 }

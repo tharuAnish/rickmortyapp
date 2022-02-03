@@ -21,7 +21,11 @@ useEffect(()=>{
 
 
     return <div className="wrapper">
-        <h1>Lists Of Character</h1>
+        <div className="background">
+            {/* <img src="../../../img/rickmorty-wallpaper.webp" alt="" /> */}
+            <h1>RickAndMortyApp</h1>
+        </div>
+        
         <div className="characterWrapper">
         { characterData.length ? characterData.map((item,i)=>
             <CharacterCard key={i} data={item} isLoading={isLoading}/>
