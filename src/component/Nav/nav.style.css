@@ -2,18 +2,25 @@
   padding: 15px;
   font-size: 1.2rem;
   text-align: right;
-  /*box-shadow: 0 3px 18px rgba(0, 0, 0, 0.2); */
+  box-shadow: 0 3px 18px rgba(0, 0, 0, 0.2);
+  background-color: #142d4c;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position: fixed;
+  width: 100%;
 }
 .nav a {
   text-decoration: none;
-  color: black;
   padding: 10px;
   font-weight: 700;
   text-align: right;
-  color: #08101a;
+  color: #7b8a9c;
 }
 
 .search {
+  margin-right: 35px;
   border-radius: 7px;
-  padding: 2px;
+  padding: 4px 10px;
+  border: none;
 }

@@ -19,7 +19,8 @@ h1 {
 
 .background {
   /* background: url(../../../img/rickmorty-wallpaper.webp); */
-  background-color: #142d4c8c;
+  background-color: #152d4dde;
+  height: 240px;
 }
 .background img {
   width: 100vw;
